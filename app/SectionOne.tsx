@@ -8,7 +8,6 @@ import zeus3 from "../public/zeus3.jpeg"
 import zeus from "../public/Sculpture.jpg"
 import zeusai from "../public/zeusai.jpeg"
 
-import CustomCursor from "./components/customcursor"
 // ===================== SOCIAL ICON COMPONENT =====================
 const DiscordIcon = ({ size = 20 }) => (
   <svg width={size} height={size} viewBox="0 0 256 256" fill="currentColor">
@@ -125,10 +124,6 @@ export default function HeroOne() {
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden bg-black text-white selection:bg-yellow-500/30">
-      {/* Custom Cursor - Hidden on mobile */}
-      <div className="hidden md:block">
-        <CustomCursor />
-      </div>
 
       {/* ================= BACKGROUND LAYERS ================= */}
 
